@@ -26,7 +26,7 @@ public protocol KJNavigaitonViewScrollviewDelegate {
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView)
 }
 
-public class KJNavigationViewAnimation: UIView {
+open class KJNavigationViewAnimation: UIView {
 
     public var scrollviewMethod: KJNavigaitonViewScrollviewDelegate?
     
