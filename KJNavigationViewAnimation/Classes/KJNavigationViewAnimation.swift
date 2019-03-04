@@ -152,7 +152,7 @@ open class KJNavigationViewAnimation: UIView {
     
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
-    override public func draw(_ rect: CGRect) {
+    override open func draw(_ rect: CGRect) {
         // Drawing code
         for constraint in self.constraints{
             
@@ -181,7 +181,7 @@ open class KJNavigationViewAnimation: UIView {
 }
 
 
-extension KJNavigationViewAnimation: KJNavigaitonViewScrollviewDelegate {
+extension KJNavigationViewAnimation: KJNavigationViewScrollviewDelegate {
     
     public func scrollViewDidScroll(_ scrollView: UIScrollView) {
         
