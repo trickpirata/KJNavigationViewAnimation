@@ -19,7 +19,7 @@ public enum MinimumSpace{
 }
 
 
-public protocol KJNavigaitonViewScrollviewDelegate {
+public protocol KJNavigationViewScrollviewDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView)
     func scrollViewWillBeginDragging(_ scrollView: UIScrollView)
     func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool)
@@ -28,7 +28,7 @@ public protocol KJNavigaitonViewScrollviewDelegate {
 
 open class KJNavigationViewAnimation: UIView {
 
-    public var scrollviewMethod: KJNavigaitonViewScrollviewDelegate?
+    public var scrollviewMethod: KJNavigationViewScrollviewDelegate?
     
     
     
